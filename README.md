@@ -4,7 +4,7 @@ source code on jetson nano to control the mobile tank
 
 ## checkout and run
 - runs on an Nvidia Jetson Nano Board
-- local repository should run within the catkin workspace of the device (name="ros_ws")
+- local repository should run within the catkin workspace of the device (name="ros_ws" -> ros_ws/src)
 - features an implementation in cpp and python to control the motors and do the ROS-communication
 - connected GPIO-PINS are: [ENA = 33, IN1 = 35, IN2 = 37, ENB = 38, IN3 = 32, IN4 = 36] (directly connect to motor driver L298N)
 - compile and run the cpp-file or start main.py
