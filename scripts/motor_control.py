@@ -115,7 +115,7 @@ def main():
 
     while True:
 
-	img = cv2.imread(r"/home/srfg-tank/catkin_ws/src/projects/collision_avoidance/images/full_desk.jpg") # no camera stream yet
+	img = cv2.imread(r"/home/srfg-tank/ros_ws/src/motor_control/scripts/test_sample.jpg") # no camera stream yet
 	cv2.imshow("SRFG Tank Video", img)   
         key = cv2.waitKey(1) & 0xFF     
 
