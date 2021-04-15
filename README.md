@@ -15,6 +15,14 @@ source code on jetson nano to control the mobile tank
 - the tank currently executes the move-commands without any safety guarantee
 - we currently only use the python implementation, cpp works but is not used anywhere
 
+## steps for first installation
+- install Ubuntu and ROS.
+- create a catkin workspace (see Creating a workspace for catkin).
+- clone this repository into the workspace's src directory.
+- clone other, required repositories into the src directory
+- execute rosdep install -i --from-paths src from the workspace to install ROS dependencies.
+- execute catkin_make from the workspace to build all packages in the workspace.
+
 ## steps for first ROS config and to create the workspace
 1) mkdir –p ~/catkin_ws/src
 2) cd ~/catkin_ws/src
