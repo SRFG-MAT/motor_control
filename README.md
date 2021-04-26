@@ -39,3 +39,4 @@ source code on jetson nano to control the mobile tank
 ## access with
 - package_name = "motor_control"
 - IP-Address: "192.168.48.32"
+- to check for connectivity try steps: http://wiki.ros.org/ROS/NetworkSetup
