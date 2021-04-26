@@ -37,5 +37,5 @@ source code on jetson nano to control the mobile tank
 "rosrun motor_control motor_control.py"
 
 ## access with
-package_name = "motor_control"
-IP-Address: "192.168.48.32"
+- package_name = "motor_control"
+- IP-Address: "192.168.48.32"
